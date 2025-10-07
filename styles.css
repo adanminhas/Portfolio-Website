@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #A79F9A;
+    color: #F8E9E9;
+    font-family: "Instrument Serif", serif;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 3.125rem; 
+    background-color: #F8E9E9;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    filter: drop-shadow(0 0.25rem 0.25rem rgba(0, 0, 0, 0.5)); 
+    font-family: "Instrument Serif", serif;
+}
+
+nav ul li a:hover {
+    color: #FF5733;
+    text-decoration: underline;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 5% 10%;
+    gap: 5%;
+    flex: 1; 
+    display: flex;
+    flex-direction: row;
+    background-color: #A79F9A;
+    padding: 0% 10%;
+    height: 85vh; 
+    align-items: center; 
+}
+
+/* Left Section */
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex: 1;
+}
+
+.intro img {
+    width: 18vw;
+    height: 30vh;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    font-size: 6rem;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.links img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.login button {
+    padding: 0.9375rem 2.5rem; 
+    font-size: 1.5rem;
+    color: #FF9999;
+    background-color: #f8e9e900;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    font-family: "Instrument Serif", serif;
+}
+
+/* Right Section */
+.right-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right-container img {
+    max-width: 150%;
+    height: auto;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #F8E9E9;
+    color: #000000;
+    padding: 0;
+    text-align: left;
+    line-height: 1;
+    font-family: "Instrument Serif", serif;
+}

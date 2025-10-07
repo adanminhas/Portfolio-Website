@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #A79F9A;
+    color: #F8E9E9;
+    font-family: 'Instrument Serif', serif;
+    font-size: 1rem;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3rem;
+    background-color: #F8E9E9;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    filter: drop-shadow(0 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
+    font-family: 'Instrument Serif', serif;
+}
+
+nav ul li a:hover {
+    color: #FF5733;
+    text-decoration: underline;
+}
+
+
+
+/* Blog Header */
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.blog-content {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    word-wrap: break-word;     
+    overflow-wrap: break-word; 
+    white-space: pre-wrap;      
+}
+
+.blog-post {
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+/* Add Blog Button */
+.add-blog-button {
+    background-color: #FF9292;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    font-family: 'Instrument Serif', serif;
+}
+
+.add-blog-button:hover {
+    background-color: #C70039;
+    transform: scale(1.05);
+}
+
+.add-blog-button:active {
+    background-color: #900C3F;
+    transform: scale(0.95);
+}
+
+/* Blog Content Styling */
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    outline: 0.125rem solid #ffffff;
+    background-color: #A79F9A;
+}
+
+.blog-post {
+    background-color: #ffffff;
+    color: black;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-left: 0.375rem solid #C70039;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 90%;
+}
+
+.blog-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-date {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.blog-content {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.no-posts {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem;
+}
+
+.month-filter {
+    margin: 2rem;
+    font-size: 1.6rem;
+}
+
+.month-filter select {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+/* Headings */
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 1rem;
+    color: #F8E9E9;
+    text-shadow: 0.125rem 0.125rem 0.25rem #000000;
+}
+
+/* Footer */
+footer {
+    background-color: #F8E9E9;
+    color: #000000;
+    padding: 0;
+    text-align: left;
+    line-height: 1;
+    font-family: 'Instrument Serif', serif;
+}

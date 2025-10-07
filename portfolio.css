@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #A79F9A;
+    color: #000;
+    font-size: 1.25rem; 
+    font-family: 'Instrument Serif', serif; 
+}
+
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3rem;
+    background-color: #F8E9E9;
+    font-family: 'Instrument Serif', serif; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
+    font-family: 'Instrument Serif', serif; 
+}
+
+nav ul li a:hover {
+    color: #FF5733;
+    text-decoration: underline;
+}
+
+/* Main Layout */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: #A79F9A;
+    padding: 2rem;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+}
+
+/* Left Section */
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 45%;
+}
+
+/* Shared Styling for Left-Side Sections */
+.education-container,
+.experience-container,
+.skills-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    font-family: 'Instrument Serif', serif; 
+}
+
+/* Titles for Sections */
+.education-container h2,
+.experience-container h2,
+.skills-container h2,
+.projects-container h2 {
+    font-size: 2rem; 
+    font-family: 'Instrument Serif', serif; 
+}
+
+/* Flexbox Layout for Entries */
+.timeline,
+.experience-flexbox,
+.skills-flexbox {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Individual Entries */
+.entry,
+.skill {
+    padding: 1rem;
+    background: #f8f8f8;
+    border-left: 0.25rem solid #fff700;
+    font-family: 'Instrument Serif', serif; 
+}
+
+.experience{
+    padding: 1rem;
+    background: #f8f8f8;
+    border-left: 0.25rem solid #001aff;
+    font-family: 'Instrument Serif', serif; 
+}
+
+/* Unique Styling for Skills */
+.skill {
+    border-left-color: #28a745; 
+}
+
+/* Right Section */
+.right {
+    width: 50%;
+}
+
+.projects-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    font-family: 'Instrument Serif', serif; 
+}
+
+.projects-flexbox {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project {
+    padding: 1rem;
+    background: #f8f8f8;
+    border-left: 0.25rem solid #ff0505; /* Same as education styling */
+    font-family: 'Instrument Serif', serif;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    width: 100%;
+}
+
+/* Skills Section - Row Layout */
+.skills-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.skill {
+    padding: 1rem;
+    background: #f8f8f8;
+    border-left: 0.25rem solid #28a745; 
+    min-width: 7.8125rem; 
+    text-align: center;
+    font-family: 'Instrument Serif', serif; 
+}
+
+/* Footer */
+footer {
+    background-color: #F8E9E9;
+    color: black;
+    text-align: left;
+    font-family: 'Instrument Serif', serif; 
+}

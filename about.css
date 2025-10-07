@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #A79F9A;
+    color: #F8E9E9;
+    font-family: 'Instrument Serif', serif;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3rem;
+    background-color: #F8E9E9;
+    position: relative;
+    font-family: 'Instrument Serif', serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+    font-family: 'Instrument Serif', serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
+    font-family: 'Instrument Serif', serif;
+}
+
+nav ul li a:hover {
+    color: #FF5733;
+    text-decoration: underline;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 5%;
+    flex-direction: column;
+    background-color: #A79F9A;
+    height: 85vh;
+    align-items: flex-start;
+    font-family: 'Instrument Serif', serif;
+}
+
+.csstudent {
+    flex: 0.5; 
+    font-family: 'Instrument Serif', serif;
+}
+
+.contact-me img {
+    width: 35%;
+    height: auto;
+    max-width: 35%;
+}
+
+.csstudent h1 {
+    font-size: 6rem;
+    margin-bottom: 0rem;
+    color: #ffffff;
+    text-shadow: 0.125rem 0.125rem 0.25rem #000000;
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+}
+
+.csstudent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    flex: 0.5; 
+    font-family: 'Instrument Serif', serif;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    outline: 0.125rem solid #000000;
+    font-size: 4rem;
+    padding: 4rem;
+    font-family: 'Instrument Serif', serif;
+}
+
+.about-me {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    font-family: 'Instrument Serif', serif;
+}
+
+.about-me img {
+    width: 180%;
+    height: auto;
+    max-width: 90%;
+}
+
+.about-me p {
+    font-size: 3.5rem;
+    font-family: 'Instrument Serif', serif;
+}
+
+.contact-me {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: 'Instrument Serif', serif;
+}  
+
+p {
+    color: #f94b4b;
+    margin-bottom: 2rem;
+    font-family: 'Instrument Serif', serif;
+}
+
+.top-container h1 {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    font-family: 'Instrument Serif', serif;
+}   
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    outline: 0.125rem solid #000000;
+    font-size: 5rem;
+    justify-content: flex-start;
+    font-family: 'Instrument Serif', serif;
+}
+
+.hobbies {
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+    padding: 4rem;
+    font-size: 3rem;
+    background-color: #A79F9A;
+    margin: 2rem 0;
+    font-family: 'Instrument Serif', serif;
+}
+
+.hobbies h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-family: 'Instrument Serif', serif;
+}
+
+.hobbies ul {
+    list-style: none; 
+    padding-left: 0;
+    font-family: 'Instrument Serif', serif;
+}
+
+.hobbies ul li {
+    font-size: 2.5rem;
+    color: #555;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #A79F9A;
+    border-radius: 0.3125rem;
+    font-family: 'Instrument Serif', serif;
+}
+
+.contact-me {
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+    padding: 4rem;
+    font-size: 3rem;
+    background-color: #A79F9A;
+    margin: 2rem 0;
+    font-family: 'Instrument Serif', serif;
+}
+
+.contact-me h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-family: 'Instrument Serif', serif;
+}
+
+footer {
+    background-color: #F8E9E9;
+    color: #000000;
+    padding: 0;
+    text-align: left;
+    line-height: 1;
+    font-family: 'Instrument Serif', serif;
+}

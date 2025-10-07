@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Log in</title>
+</head>
+<body>
+
+<div class="wrapper"></div>
+    <!-- Header Section -->
+    <header class="header-container">
+        <div class="logo">
+            <img src="logo.svg" alt="My Logo">
+        </div>
+        <nav class="nav-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html#contact">Contact</a></li>
+                <li><a href="viewBlog.php">Blog</a></li>
+                <li><a href="logout.php" class="logout-link">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-container">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="login.php" method="POST">
+                <label for="username">Username</label>
+                <input type="email" id="username" name="username" required>
+    
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+    
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember Me</label>
+                </div>                
+    
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+</div>
+    <!-- Footer Section -->
+    <footer>Copyright © 2025,  All rights reserved</footer>
+
+</body>
+</html>

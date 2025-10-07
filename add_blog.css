@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #A79F9A;
+    color: #F8E9E9;
+    font-family: 'Instrument Serif', serif;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3rem;
+    background-color: #F8E9E9;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.25rem; /* 20px to rem */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5)); /* 0px 4px 4px to rem */
+}
+
+nav ul li a:hover {
+    color: #FF5733;
+    text-decoration: underline;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 10%;
+    flex-direction: column;
+    background-color: #A79F9A;
+    height: 80vh; /* Adjust height so footer remains visible */
+    align-items: flex-start;
+    outline: 0.125rem solid #ffffff; /* 2px to rem */
+}
+
+.blog-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 2rem;
+}   
+
+/* Add Blog Button */
+.add-blog-button {
+    background-color: #FF9292;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.add-blog-button:hover {
+    background-color: #C70039;
+    transform: scale(1.05);
+}
+
+.add-blog-button:active {
+    background-color: #900C3F;
+    transform: scale(0.95);
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 1rem;
+    color: #F8E9E9;
+    text-shadow: 0.125rem 0.125rem 0.25rem #000000; 
+}
+
+footer {
+    background-color: #F8E9E9;
+    color: #000000;
+    padding: 0;
+    text-align: left;
+    line-height: 1;
+}
+
+/* Blog Form Styling */
+form {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    max-width: 50rem;
+    width: 100%;
+    margin: auto;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    resize: none;
+}
+
+textarea {
+    height: 15rem;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.button {
+    background-color: #FF9292;
+    color: white;
+    border: none;
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #C70039;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #900C3F;
+    transform: scale(0.95);
+}
+
+
+input.missing,
+textarea.missing {
+    border: 0.2rem solid rgb(102, 255, 0) !important;
+    background: #00b500 !important;
+}
+
+textarea#blog-title.missing,
+input#blog-content.missing {
+    border: 0.25rem solid rgb(0, 255, 60) !important;
+    background-color: green !important;
+}

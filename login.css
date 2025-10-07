@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #A79F9A;
+    color: #000;
+    font-size: 1.25rem; 
+    font-family: 'Instrument Serif', serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3rem;
+    background-color: #F8E9E9;
+    font-family: 'Instrument Serif', serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+    font-family: 'Instrument Serif', serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
+    font-family: 'Instrument Serif', serif;
+}
+
+nav ul li a:hover {
+    color: #FF5733;
+    text-decoration: underline;
+}
+
+/* Center the login container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #A79F9A;
+    padding: 2rem;
+    flex-direction: column;
+    font-family: 'Instrument Serif', serif;
+}
+
+/* Adjust login container size */
+.login-container {
+    background: lightblue;
+    padding: 2.5rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 24rem; 
+    font-family: 'Instrument Serif', serif;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    font-family: 'Instrument Serif', serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Instrument Serif', serif;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.3125rem;
+    font-size: 2rem;
+    font-family: 'Instrument Serif', serif;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center; 
+    gap: 0.5rem; 
+    justify-content: center;
+    margin-top: -0.5rem; 
+    font-family: 'Instrument Serif', serif;
+}
+
+.remember-me input {
+    width: 1rem;
+    height: 1rem;
+    margin: 0;
+    vertical-align: middle; 
+}
+
+button {
+    background: #FF9292;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Instrument Serif', serif;
+}
+
+button:hover {
+    background: #C70039;
+}
+
+/* Footer */
+footer {
+    background-color: #F8E9E9;
+    color: black;
+    text-align: left;
+    font-family: 'Instrument Serif', serif;
+}
